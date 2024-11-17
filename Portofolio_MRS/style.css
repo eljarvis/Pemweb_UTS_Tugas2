@@ -1,0 +1,319 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url('Schwart.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 5px 50px;
+    border-bottom: 5px solid blueviolet;
+    position: fixed;
+}
+
+.header .home{
+    font-size: 20px;
+    color: blue;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: palegoldenrod;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+.header .about{
+    font-size: 20px;
+    color: blue;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: palegoldenrod;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+.header .gallery{
+    font-size: 20px;
+    color: blue;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: palegoldenrod;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+.header .contact{
+    font-size: 20px;
+    color: blue;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 25px;
+    transition: 0.3s;
+    border: 1px solid black;
+    background-color: palegoldenrod;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+.logo {
+
+     font-size: 25px;
+     color: red;
+     text-decoration: none;
+     font-weight: 500;
+}
+
+.navbar a:hover{
+    color: green;
+    box-shadow: 3px 5px 5px green;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: red;
+    margin-left: 150px;
+    transition: 0.6s;
+    margin-top: 100px;
+}
+
+.home-image img:hover{
+    transform: scaleX(1.1);
+}
+
+.home-image img{
+    position: relative;
+    bottom: 0px;
+    max-width: 900px;
+    border-radius: 50%;
+}
+
+
+.home-content {
+    max-width: 600px;
+    color: blue;
+    text-align: right;
+}
+
+.home-content h1{
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 35px;
+    color: aqua;
+    -webkit-text-stroke: 0.5px red;
+}
+
+.home-icon {
+    margin: 25px 0 40px;
+}
+.home-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    font-size: 20px;
+    color: paleturquoise;
+    text-decoration: none;
+    margin: 12px;
+}
+
+.home-icon a:hover{
+    background: greenyellow;
+    color: red;
+    border-color: chocolate;
+    box-shadow: 0 0 10px rgb(221, 255, 2);
+}
+
+.aboutme{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 120px 10%;
+    background: linear-gradient(to top, gray,whitesmoke);
+    height: 100vh;
+}
+
+.aboutme .about-judul {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: blue;
+}
+
+
+.aboutme .about-main {
+    display: flex;
+    padding: 30px;
+}
+
+.aboutme .about-main img {
+    width: 700px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 1rem;
+}
+
+.aboutme .about-main p {
+    margin: 30px;
+    font-size: 2rem;
+    color: red;
+}
+
+.gallery{
+    padding: 6rem 7% 1.4rem;
+    height: 100vh;
+}
+
+.gallery h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.gallery h2 span{
+    color: red;
+}
+
+.gallery .gallery-main {
+    display: flex;
+    padding: 3rem;
+}
+
+.gallery .gallery-main img {
+    width: 70px;
+    height: 300px;
+}
+
+.gallery .gallery-main img:hover{
+    width: 550px;
+    height: 425px;
+}
+
+.gallery .gallery-main p {
+    font-size: 20px;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
